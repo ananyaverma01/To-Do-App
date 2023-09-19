@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(blue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.box{
+    width: 700px;
+    min-height: 500px;
+    background-color: rgb(210, 234, 238);
+    border-radius: 18px;
+    padding: 15px;
+    
+    
+}
+.todo  h2{
+    color: black;
+    font-size: 30px;
+    max-width: flex;
+    text-decoration: underline;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.todo img{
+    width: 35px;
+    margin-left: 10px;
+}
+#item{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 20px;
+    margin-top: 60px;
+    
+}
+#to-do-box{
+    list-style: none;
+    margin-top:20px ;
+    
+}
+#to-do-box li{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 10px;
+    user-select: none;
+    
+}
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: gray !important;
+}
